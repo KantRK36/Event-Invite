@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Invite</title>
+  <style>
+    /* CSS rules */
+
+    /* Background and General Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    /* Event Container */
+    .event-container {
+      background-color: #fff;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      text-align: center;
+    }
+
+    /* Event Title */
+    h1 {
+      color: #4CAF50;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Event Details */
+    .event-details {
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    /* RSVP Button */
+    .rsvp-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #4CAF50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .rsvp-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Event Container -->
+  <div class="event-container">
+    <!-- Event Title -->
+    <h1>Summer Bash 2025</h1>
+
+    <!-- Event Details -->
+    <p class="event-details">
+      Join us for an unforgettable evening filled with food, fun, and music! 🎉<br>
+      <strong>Date:</strong> Saturday, July 12, 2025<br>
+      <strong>Time:</strong> 6:00 PM - Midnight<br>
+      <strong>Location:</strong> Paradise Gardens, 123 Event Blvd, London
+    </p>
+
+    <!-- Guest List -->
+    <h2>Guest List</h2>
+    <ul>
+      <li>John Doe</li>
+      <li>Jane Smith</li>
+      <li>Emily Davis</li>
+    </ul>
+
+    <!-- RSVP Button -->
+    <a href="rsvp.html" class="rsvp-btn">RSVP Now</a>
+  </div>
+
+</body>
+</html>
